@@ -75,6 +75,8 @@ docker exec -it mariadb -u root -pmariadb < db-load-script.sql
 ------------------------
 
 ![default db password](image-1.png)
+
+
 🎯 Future Improvements
 ----------------------
 
