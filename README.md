@@ -53,20 +53,20 @@ This project demonstrates how to deploy a PHP-based e-commerce web app using Doc
 
 ### **Steps**
 
-1.  ```sh Copy Edit```
+1.  
 ```
  git clone https://github.com/yourusername/php-ecommerce-docker.git
  cd php-ecommerce-docker
 ```
-2. ```sh Copy Edit```
+2. 
 ```
 docker compose up -d
 ```  
-3.  ```Copy Edit```
+3.  
 ```
 http://localhost
 ```    
-4.  ```sh Copy Edit```
+4.  
 ```
 docker exec -it mariadb -u root -pmariadb < db-load-script.sql
 ```    
@@ -74,8 +74,11 @@ docker exec -it mariadb -u root -pmariadb < db-load-script.sql
 🔐 Environment Variables
 ------------------------
 
-VariableDescriptionDefault ValueMYSQL\_ROOT\_PASSWORDMariaDB Root PasswordmariadbMYSQL\_DATABASEDatabase Nameecomdb
-
+```
+**Environment Variables**
+- `MYSQL_ROOT_PASSWORD`: MariaDB Root Password *(Default: mariadb)*
+- `MYSQL_DATABASE`: Database Name *(Default: ecomdb)*
+```
 🎯 Future Improvements
 ----------------------
 
