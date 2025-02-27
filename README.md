@@ -73,8 +73,7 @@ docker exec -it mariadb -u root -pmariadb < db-load-script.sql
 
 🔐 Environment Variables
 ------------------------
-
-![default db password](<Screenshot from 2025-02-27 12-30-32.png>)
+![default db password](<default-db-password.png>)
 
 
 🎯 Future Improvements
