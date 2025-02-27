@@ -64,7 +64,7 @@ docker compose up -d
 ```  
 3.  
 ```
-http://localhost
+http://localhost:8080
 ```    
 4.  
 ```
