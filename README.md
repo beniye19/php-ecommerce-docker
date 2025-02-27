@@ -79,6 +79,7 @@ docker exec -it mariadb -u root -pmariadb < db-load-script.sql
 - `MYSQL_ROOT_PASSWORD`: MariaDB Root Password *(Default: mariadb)*
 - `MYSQL_DATABASE`: Database Name *(Default: ecomdb)*
 ```
+![default db password](image-1.png)
 🎯 Future Improvements
 ----------------------
 
